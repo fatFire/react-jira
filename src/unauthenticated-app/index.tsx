@@ -6,10 +6,14 @@ import styled from "@emotion/styled";
 import logo from "assests/logo.svg";
 import left from "assests/left.svg";
 import right from "assests/right.svg";
+import { useDocumentTitle } from "../utils";
 
 export default function UnauthenticatedApp() {
   const [isRegister, setIsRegister] = useState(false);
   const [error, setError] = useState<Error | null>(null);
+
+  useDocumentTitle("请登录或注册", false);
+
   return (
     <Container>
       <Header />
