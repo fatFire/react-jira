@@ -3,9 +3,9 @@ import { RegisterScreen } from "./register";
 import { LoginScreen } from "./login";
 import { Button, Card, Divider, Typography } from "antd";
 import styled from "@emotion/styled";
-import logo from "assests/logo.svg";
-import left from "assests/left.svg";
-import right from "assests/right.svg";
+import logo from "assets/logo.svg";
+import left from "assets/left.svg";
+import right from "assets/right.svg";
 import { useDocumentTitle } from "../utils";
 
 export default function UnauthenticatedApp() {
