@@ -28,8 +28,8 @@ export const ProjectPopover = () => {
   );
 
   return (
-    <Popover placement={"bottom"} content={content}>
-      <span>项目</span>
+    <Popover placement={"bottom"} content={content} trigger="hover">
+      <ButtonNoPadding type={"link"}>项目</ButtonNoPadding>
     </Popover>
   );
 };
